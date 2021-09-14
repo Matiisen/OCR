@@ -29,3 +29,12 @@ Cloudowe:
 |  Abby Cloud            | Windows         |       ~        |  tak   |          | na bieżąco |
 |  Google Cloud Vision   | Unix/Win        |       ~        |  tak   |          | na bieżąco |
 |  Microsoft Azure Vison | Windows         |       ~        |  tak   |          | na bieżąco |
+
+
+
+użyteczne linki:
+https://github.com/kba/awesome-ocr
+https://www.linuxlinks.com/ocrtools/
+https://linuxhint.com/ocr-apps-linux/
+https://github.com/factful/ocr_testing
+https://source.opennews.org/articles/so-many-ocr-options/
