@@ -13,6 +13,7 @@
 |  gscan2pdf | Unix            |        -       |  tak   | Open Source | 3 lata temu     | popularność | https://github.com/marschap/gscan2pdf                |
 
 Graphical software:
+
 |    Nazwa     |System Operacyjny| liczba języków | polski | licencja    | wsparcie        | popularność |                     link do repo                       |
 | :---:   | :-: | :-: | :-:| :---:   | :-: | :-: | :-:|
 |  Paperwork   | Unix            |      ~150      |  tak   | Open Source | na bieżąco      |             | https://gitlab.gnome.org/World/OpenPaperwork/paperwork |
@@ -20,3 +21,11 @@ Graphical software:
 |  OcrFeeder   | Unix            |      ~50       |  tak   | Open Source | na bieżąco      |             | https://github.com/GNOME/ocrfeeder                     |
 | Adobe Acrobat| Windows         |                |  tak   | płatna      | na bieżąco      | popularność | -                                                      |
 |  gImageReader| Unix            |      ~200      |  tak   | Open Source | na bieżąco      |             | https://github.com/manisandro/gImageReader             |
+
+Cloudowe:
+
+|    Nazwa               |System Operacyjny| liczba języków | polski | licencja | wsparcie   |
+| :---:   | :-: | :-: | :-:| :---:   | :-: |
+|  Abby Cloud            | Windows         |       ~        |  tak   |          | na bieżąco |
+|  Google Cloud Vision   | Unix/Win        |       ~        |  tak   |          | na bieżąco |
+|  Microsoft Azure Vison | Windows         |       ~        |  tak   |          | na bieżąco |
