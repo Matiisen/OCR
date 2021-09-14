@@ -31,8 +31,10 @@ Cloudowe:
 |  Microsoft Azure Vison | Windows         |       ~        |  tak   |          | na bieżąco |
 
 
+Opis poszczególnych narzędzi: <br>
+//TO DO
 
-użyteczne linki:
+użyteczne linki: <br>
 https://github.com/kba/awesome-ocr <br>
 https://www.linuxlinks.com/ocrtools/ <br>
 https://linuxhint.com/ocr-apps-linux/ <br>
