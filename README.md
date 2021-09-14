@@ -33,8 +33,8 @@ Cloudowe:
 
 
 użyteczne linki:
-https://github.com/kba/awesome-ocr
-https://www.linuxlinks.com/ocrtools/
-https://linuxhint.com/ocr-apps-linux/
-https://github.com/factful/ocr_testing
-https://source.opennews.org/articles/so-many-ocr-options/
+https://github.com/kba/awesome-ocr <br>
+https://www.linuxlinks.com/ocrtools/ <br>
+https://linuxhint.com/ocr-apps-linux/ <br>
+https://github.com/factful/ocr_testing <br>
+https://source.opennews.org/articles/so-many-ocr-options/ <br>
