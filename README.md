@@ -13,9 +13,8 @@
 |  gscan2pdf | Unix            |        -       |  tak   | Open Source | 3 lata temu     | popularność | https://github.com/marschap/gscan2pdf                |
 
 Graphical software:
-| :---:   | :-: | :-: | :-:| :---:   | :-: | :-: | :-:|
 |    Nazwa     |System Operacyjny| liczba języków | polski | licencja    | wsparcie        | popularność |                     link do repo                       |
-
+| :---:   | :-: | :-: | :-:| :---:   | :-: | :-: | :-:|
 |  Paperwork   | Unix            |      ~150      |  tak   | Open Source | na bieżąco      |             | https://gitlab.gnome.org/World/OpenPaperwork/paperwork |
 |  Lios        | Unix            |      ~200      |  tak   | Open Source | na bieżąco      | popularność | https://github.com/Nalin-x-Linux/lios-3                |
 |  OcrFeeder   | Unix            |      ~50       |  tak   | Open Source | na bieżąco      |             | https://github.com/GNOME/ocrfeeder                     |
