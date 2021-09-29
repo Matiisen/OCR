@@ -38,14 +38,23 @@ Opis poszczególnych narzędzi: <br>
 Tesseract- narzędzie służące do przeprowadzania OCR działające na różnych systemach operacyjnych. Jest darmowym oprogramowaniem wydanym na licencji Apache 2.0. Uważany za najbardziej dokładny open sourcowy program do OCR. 
 
 OCRopus – działa na systemach unixowych. Darmowe oprogramowanie wydane na licencji Apache 2.0. Przeprowadza najpierw binaryzację obrazu, dzieli na linie następnie wydobywa tekst. <br>
- Ocrad – wydany na licencji GNU GPL. Wczytuje obrazy w formacie pixmap i przetwarza na tekst. Umożliwia podział na kolumny, bloki. 
+Ocrad – wydany na licencji GNU GPL. Wczytuje obrazy w formacie pixmap i przetwarza na tekst. Umożliwia podział na kolumny, bloki. <br>
+GOCR - oprogramowanie służące do rozpoznania tekstu, wydane na licencji GNU GPL v2.
 
 
 Wykorzystanie w językach programowych (główne zainteresowanie Java) <br>
 Jako jedyny w zestawieniu Tesseract posiada biblioteki umożliwiające wykorzystanie go w większości języków programowania. Żeby wywołać pozostałe narzędzia należy uruchomić je jako procesy.
 
-Tesseract dostępny jest dostępny również jako projekt w dockerze z sytemem kolejkowym: https://github.com/tleyden/open-ocr
+Tesseract-OCR dostępny jest również jako projekt w dockerze z sytemem kolejkowym: https://github.com/tleyden/open-ocr
 
+Wnioski po przeprowadzeniu analizy oraz testów porównawczych (Tesseract-ocr a GOCR): <br>
+- Tesseract pracuje dłużej
+- Uzyskane teksty przez Tesseract są dokładniejsze
+- Tesseract jako jedyne narzędzie posiada biblioteki umożliwiające wykorzystanie go w projektach.
+- Najbardziej popularnie używanym narzędziem jest Tesseract
+- W przedstawianych poniżej rankingach Tesseract wypada najlepiej
+
+Z powyższych wniosków wynika, że najlepszym dostępnym narzędziem jest Tesseract-ocr.
 
 Znalezione rankingi przedstawianych narzędzi: <br>
 Zestawienie pod względem dokładności: https://www.slant.co/topics/2579/~best-ocr-libraries <br>
