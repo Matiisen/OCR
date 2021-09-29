@@ -51,7 +51,8 @@ Wnioski po przeprowadzeniu analizy oraz testów porównawczych (Tesseract-ocr a 
 - Tesseract pracuje dłużej
 - Uzyskane teksty przez Tesseract są dokładniejsze
 - Tesseract jako jedyne narzędzie posiada biblioteki umożliwiające wykorzystanie go w projektach.
-- Najbardziej popularnie używanym narzędziem jest Tesseract
+- Najbardziej powszechnie używanym narzędziem jest Tesseract
+- Posiada wsparcie dla języka polskiego
 - W przedstawianych poniżej rankingach Tesseract wypada najlepiej
 
 Z powyższych wniosków wynika, że najlepszym dostępnym narzędziem jest Tesseract-ocr.
