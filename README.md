@@ -1,6 +1,6 @@
 # OCR
 
-Projekt dotyczy analizy dostępnych narzędzi do przeprowadzania optycznego rozpoznawania znaków (OCR), przeprowadzeniu testów porównawczych oraz wytypowaniu najlepszego narzędzia.
+Projekt dotyczy analizy dostępnych na rynku narzędzi do przeprowadzania optycznego rozpoznawania znaków (OCR), przeprowadzeniu testów porównawczych oraz wytypowaniu najlepszego narzędzia.
 
 |    Nazwa   |System Operacyjny| liczba języków | polski | licencja    | wsparcie        |                      link do repo                     |
 | :---:   | :-: | :-: | :-:| :---:   | :-: |:-:|
