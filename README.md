@@ -2,17 +2,17 @@
 
 Projekt dotyczy analizy dostępnych na rynku narzędzi do przeprowadzania optycznego rozpoznawania znaków (OCR), przeprowadzeniu testów porównawczych oraz wytypowaniu najlepszego narzędzia.
 
-|    Nazwa   |System Operacyjny| liczba języków | polski | licencja    | wsparcie        |                      link do repo                     |
-| :---:   | :-: | :-: | :-:| :---:   | :-: |:-:|
-|  Tesseract-OCR | Unix            |      ~200      |  tak   | Apache 2.0  | na bieżąco      | https://github.com/tesseract-ocr/tesseract           |
-|  EasyOCR   | Windows         |      ~80      |  tak   | Apache 2.0 | na bieżąco      | https://github.com/JaidedAI/EasyOCR                  |
-|  Calamari  | Unix/Windows    |       ~100   |  tak   | Apache 2.0 | na bieżąco      | https://github.com/Calamari-OCR/calamari             |
-|  Kraken    | Unix            |        ~100       |  tak   | Apache 2.0 | na bieżąco      | https://github.com/mittagessen/kraken                |
-|  OCRopus   | Unix            |  ~100  |  tak   | Apache 2.0 | w ubiegłym roku | https://github.com/ocropus/ocropy                    |
-|  GOCR      | Unix            |       ~20      |  nie   | GNU GPL v2 | 5 lat temu      | https://github.com/eaciit/gocr                       |
-|  OCRAD     | Unix            |       ~15      |  nie   | GNU GPL v2 | 5 lat temu      | https://github.com/kba/ocrad-docker                  |
-|  Cuneiform | Unix            |       ~28      |  tak   | Freeware | 13 lat temu     | https://github.com/jwilk-mirrors/cuneiform-multilang |
-|  gscan2pdf | Unix            |        ~30     |  tak   | GNU GPL | 3 lata temu     |https://github.com/marschap/gscan2pdf                |
+|    Nazwa   |System Operacyjny| liczba języków | polski | technologie    | licencja    | wsparcie        |                      link do repo                     |
+| :---:   | :-: | :-: | :-:| :---:   | :-: | :-: |:-:|
+|  Tesseract-OCR | Unix            |      ~200      |  tak   | java, python, php, .NET,  | Apache 2.0  | na bieżąco      | https://github.com/tesseract-ocr/tesseract   |
+|  EasyOCR   | Windows         |      ~80      |  tak   | python  | Apache 2.0  | na bieżąco      | https://github.com/JaidedAI/EasyOCR                  |
+|  Calamari  | Unix/Windows    |       ~100   |  tak   | python, w javie jako proces | Apache 2.0  | na bieżąco      | https://github.com/Calamari-OCR/calamari             |
+|  Kraken    | Unix            |        ~100       |  tak   | python, w javie jako proces | Apache 2.0  | na bieżąco      | https://github.com/mittagessen/kraken      |
+|  OCRopus   | Unix            |  ~100  |  tak   | python, w javie jako proces  | Apache 2.0  | w ubiegłym roku | https://github.com/ocropus/ocropy                    |
+|  GOCR      | Unix            |       ~20      |  nie   | GO, w javie jako proces | GNU GPL v2 | 5 lat temu      | https://github.com/eaciit/gocr                       |
+|  OCRAD     | Unix            |       ~15      |  nie   | w javie jako proces | GNU GPL v2 | 5 lat temu      | https://github.com/kba/ocrad-docker                  |
+|  Cuneiform | Unix            |       ~28      |  tak   | C/C++, w javie jako proces | GNU GPL v2 | 13 lat temu     | https://github.com/jwilk-mirrors/cuneiform-multilang |
+|  gscan2pdf | Unix            |        ~30     |  tak   | Pearl, w javie jako proces | GNU GPL | 3 lata temu     |https://github.com/marschap/gscan2pdf                |
 
 Graphical software:
 
@@ -33,12 +33,14 @@ Cloudowe:
 |  Microsoft Azure Vison | Windows         |  tak   |  na bieżąco |
 
 
-Opis poszczególnych narzędzi: <br>
+Opis wybranych narzędzi: <br>
 
 Tesseract- narzędzie służące do przeprowadzania OCR działające na różnych systemach operacyjnych. Jest darmowym oprogramowaniem wydanym na licencji Apache 2.0. Uważany za najbardziej dokładny open sourcowy program do OCR. 
 
 OCRopus – działa na systemach unixowych. Darmowe oprogramowanie wydane na licencji Apache 2.0. Przeprowadza najpierw binaryzację obrazu, dzieli na linie następnie wydobywa tekst. <br>
+
 Ocrad – wydany na licencji GNU GPL. Wczytuje obrazy w formacie pixmap i przetwarza na tekst. Umożliwia podział na kolumny, bloki. <br>
+
 GOCR - oprogramowanie służące do rozpoznania tekstu, wydane na licencji GNU GPL v2.
 
 
@@ -50,12 +52,12 @@ Tesseract-OCR dostępny jest również jako projekt w dockerze z sytemem kolejko
 Wnioski po przeprowadzeniu analizy oraz testów porównawczych (Tesseract-ocr a GOCR): <br>
 - Tesseract pracuje dłużej
 - Uzyskane teksty przez Tesseract są dokładniejsze
-- Tesseract jako jedyne narzędzie posiada biblioteki umożliwiające wykorzystanie go w projektach.
+- Tesseract jako jedyne narzędzie posiada biblioteki umożliwiające wykorzystanie go w językach.
 - Najbardziej powszechnie używanym narzędziem jest Tesseract
 - Posiada wsparcie dla języka polskiego
 - W przedstawianych poniżej rankingach Tesseract wypada najlepiej
 
-Z powyższych wniosków wynika, że najlepszym dostępnym narzędziem jest Tesseract-ocr.
+Z powyższych wniosków wynika, że najlepszym w zadanych kryteriach dostępnym narzędziem jest Tesseract-ocr.
 
 Znalezione rankingi przedstawianych narzędzi: <br>
 Zestawienie pod względem dokładności: https://www.slant.co/topics/2579/~best-ocr-libraries <br>
