@@ -16,13 +16,13 @@ Projekt dotyczy analizy dostępnych narzędzi do przeprowadzania optycznego rozp
 
 Graphical software:
 
-|    Nazwa     |System Operacyjny| liczba języków | polski | licencja    | wsparcie        | popularność |                     link do repo                       |
-| :---:   | :-: | :-: | :-:| :---:   | :-: | :-: | :-:|
-|  Paperwork   | Unix            |      ~150      |  tak   | Open Source | na bieżąco      |             | https://gitlab.gnome.org/World/OpenPaperwork/paperwork |
-|  Lios        | Unix            |      ~200      |  tak   | Open Source | na bieżąco      | popularność | https://github.com/Nalin-x-Linux/lios-3                |
-|  OcrFeeder   | Unix            |      ~50       |  tak   | Open Source | na bieżąco      |             | https://github.com/GNOME/ocrfeeder                     |
-| Adobe Acrobat| Windows         |                |  tak   | płatna      | na bieżąco      | popularność | -                                                      |
-|  gImageReader| Unix            |      ~200      |  tak   | Open Source | na bieżąco      |             | https://github.com/manisandro/gImageReader             |
+|    Nazwa     |System Operacyjny| liczba języków | polski | licencja    | wsparcie        |                    link do repo                       |
+| :---:   | :-: | :-: | :-:| :---:   | :-: | :-:|
+|  Paperwork   | Unix            |      ~150      |  tak   | Open Source | na bieżąco      |  https://gitlab.gnome.org/World/OpenPaperwork/paperwork |
+|  Lios        | Unix            |      ~200      |  tak   | Open Source | na bieżąco      | https://github.com/Nalin-x-Linux/lios-3                |
+|  OcrFeeder   | Unix            |      ~50       |  tak   | Open Source | na bieżąco      | https://github.com/GNOME/ocrfeeder                     |
+| Adobe Acrobat| Windows         |                |  tak   | płatna      | na bieżąco      |  -                                                      |
+|  gImageReader| Unix            |      ~200      |  tak   | Open Source | na bieżąco      |   https://github.com/manisandro/gImageReader             |
 
 Cloudowe:
 
