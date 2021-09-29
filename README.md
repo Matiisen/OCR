@@ -9,20 +9,20 @@ Projekt dotyczy analizy dostępnych narzędzi do przeprowadzania optycznego rozp
 |  Calamari  | Unix/Windows    |       ~100   |  tak   | Apache 2.0 | na bieżąco      | https://github.com/Calamari-OCR/calamari             |
 |  Kraken    | Unix            |        ~100       |  tak   | Apache 2.0 | na bieżąco      | https://github.com/mittagessen/kraken                |
 |  OCRopus   | Unix            |  ~100  |  tak   | Apache 2.0 | w ubiegłym roku | https://github.com/ocropus/ocropy                    |
-|  GOCR      | Unix            |       ~20      |  nie   | GPL v2 | 5 lat temu      | https://github.com/eaciit/gocr                       |
-|  OCRAD     | Unix            |       ~15      |  nie   | GPL v2 | 5 lat temu      | https://github.com/kba/ocrad-docker                  |
+|  GOCR      | Unix            |       ~20      |  nie   | GNU GPL v2 | 5 lat temu      | https://github.com/eaciit/gocr                       |
+|  OCRAD     | Unix            |       ~15      |  nie   | GNU GPL v2 | 5 lat temu      | https://github.com/kba/ocrad-docker                  |
 |  Cuneiform | Unix            |       ~28      |  tak   | Freeware | 13 lat temu     | https://github.com/jwilk-mirrors/cuneiform-multilang |
-|  gscan2pdf | Unix            |        ~30     |  tak   | GPL | 3 lata temu     |https://github.com/marschap/gscan2pdf                |
+|  gscan2pdf | Unix            |        ~30     |  tak   | GNU GPL | 3 lata temu     |https://github.com/marschap/gscan2pdf                |
 
 Graphical software:
 
 |    Nazwa     |System Operacyjny| liczba języków | polski | licencja    | wsparcie        |                    link do repo                       |
 | :---:   | :-: | :-: | :-:| :---:   | :-: | :-:|
-|  Paperwork   | Unix            |      ~150      |  tak   | Open Source | na bieżąco      |  https://gitlab.gnome.org/World/OpenPaperwork/paperwork |
-|  Lios        | Unix            |      ~200      |  tak   | Open Source | na bieżąco      | https://github.com/Nalin-x-Linux/lios-3                |
-|  OcrFeeder   | Unix            |      ~50       |  tak   | Open Source | na bieżąco      | https://github.com/GNOME/ocrfeeder                     |
-| Adobe Acrobat| Windows         |                |  tak   | płatna      | na bieżąco      |  -                                                      |
-|  gImageReader| Unix            |      ~200      |  tak   | Open Source | na bieżąco      |   https://github.com/manisandro/gImageReader             |
+|  Paperwork   | Unix            |      ~150      |  tak   | GNU GPL v3 | na bieżąco      |  https://gitlab.gnome.org/World/OpenPaperwork/paperwork |
+|  Lios        | Unix            |      ~200      |  tak   | GNU GPL v3 | na bieżąco      | https://github.com/Nalin-x-Linux/lios-3                |
+|  OcrFeeder   | Unix            |      ~50       |  tak   | GNU GPL v3 | na bieżąco      | https://github.com/GNOME/ocrfeeder                     |
+| Adobe Acrobat| Windows         |                |  tak   | Adobe      | na bieżąco      |  -                                                      |
+|  gImageReader| Unix            |      ~200      |  tak   | Apache 2.0 | na bieżąco      |   https://github.com/manisandro/gImageReader             |
 
 Cloudowe:
 
