@@ -37,7 +37,7 @@ Opis poszczególnych narzędzi: <br>
 
 Tesseract- narzędzie służące do przeprowadzania OCR działające na różnych systemach operacyjnych. Jest darmowym oprogramowaniem wydanym na licencji Apache 2.0. Uważany za najbardziej dokładny open sourcowy program do OCR. 
 
-OCRopus – działa na systemach unixowych. Darmowe oprogramowanie wydane na licencji Apache 2.0. Przeprowadza najpierw binaryzację obrazu, dzieli na linie następnie wydobywa tekst.
+OCRopus – działa na systemach unixowych. Darmowe oprogramowanie wydane na licencji Apache 2.0. Przeprowadza najpierw binaryzację obrazu, dzieli na linie następnie wydobywa tekst. <br>
  Ocrad – wydany na licencji GNU GPL. Wczytuje obrazy w formacie pixmap i przetwarza na tekst. Umożliwia podział na kolumny, bloki. 
 
 
