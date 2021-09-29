@@ -4,7 +4,7 @@ Projekt dotyczy analizy dostępnych narzędzi do przeprowadzania optycznego rozp
 
 |    Nazwa   |System Operacyjny| liczba języków | polski | licencja    | wsparcie        |                      link do repo                     |
 | :---:   | :-: | :-: | :-:| :---:   | :-: |:-:|
-|  Tesseract | Unix            |      ~200      |  tak   | Apache 2.0  | na bieżąco      | https://github.com/tesseract-ocr/tesseract           |
+|  Tesseract-OCR | Unix            |      ~200      |  tak   | Apache 2.0  | na bieżąco      | https://github.com/tesseract-ocr/tesseract           |
 |  EasyOCR   | Windows         |      ~80      |  tak   | Apache 2.0 | na bieżąco      | https://github.com/JaidedAI/EasyOCR                  |
 |  Calamari  | Unix/Windows    |       ~100   |  tak   | Apache 2.0 | na bieżąco      | https://github.com/Calamari-OCR/calamari             |
 |  Kraken    | Unix            |        ~100       |  tak   | Apache 2.0 | na bieżąco      | https://github.com/mittagessen/kraken                |
@@ -34,11 +34,18 @@ Cloudowe:
 
 
 Opis poszczególnych narzędzi: <br>
-//TO DO
+
+Wykorzystanie w językach programowych (główne zainteresowanie Java)
+Jako jedyny w zestawieniu Tesseract posiada biblioteki umożliwiające wykorzystanie go w większości języków programowania. Żeby wywołać pozostałe narzędzia należy uruchomić je jako procesy.
+
+
+Znalezione rankingi przedstawianych narzędzi: <br>
+Zestawienie pod względem dokładności: https://www.slant.co/topics/2579/~best-ocr-libraries <br>
+Zestawienie najlepszych narzędzi dostępnych na linuxie wraz z porównaniem przedstawianych: https://www.linuxlinks.com/ocrtools/ <br>
+Zestawienie narzędzi na linuxie: https://linuxhint.com/ocr-apps-linux/ <br>
+Zestawienie dostępnych narzędzi: https://source.opennews.org/articles/so-many-ocr-options/ <br>
 
 użyteczne linki: <br>
-https://github.com/kba/awesome-ocr <br>
-https://www.linuxlinks.com/ocrtools/ <br>
-https://linuxhint.com/ocr-apps-linux/ <br>
-https://github.com/factful/ocr_testing <br>
-https://source.opennews.org/articles/so-many-ocr-options/ <br>
+Lista zawierająca opis narzędzi i bibliotek: https://github.com/kba/awesome-ocr <br>
+Repozytorium zawierające testy porównawcze narzędzi: https://github.com/factful/ocr_testing <br>
+
