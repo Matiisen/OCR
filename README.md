@@ -46,6 +46,7 @@ Jako jedyny w zestawieniu Tesseract posiada biblioteki umożliwiające wykorzyst
 
 Tesseract dostępny jest dostępny również jako projekt w dockerze z sytemem kolejkowym: https://github.com/tleyden/open-ocr
 
+
 Znalezione rankingi przedstawianych narzędzi: <br>
 Zestawienie pod względem dokładności: https://www.slant.co/topics/2579/~best-ocr-libraries <br>
 Zestawienie najlepszych narzędzi dostępnych na linuxie wraz z porównaniem przedstawianych: https://www.linuxlinks.com/ocrtools/ <br>
