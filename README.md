@@ -35,13 +35,13 @@ Cloudowe:
 
 Opis wybranych narzędzi: <br>
 
-Tesseract- narzędzie służące do przeprowadzania OCR działające na różnych systemach operacyjnych. Jest darmowym oprogramowaniem wydanym na licencji Apache 2.0. Uważany za najbardziej dokładny open sourcowy program do OCR. 
+**Tesseract**- narzędzie służące do przeprowadzania OCR działające na różnych systemach operacyjnych. Jest darmowym oprogramowaniem wydanym na licencji Apache 2.0. Uważany za najbardziej dokładny open sourcowy program do OCR. 
 
-OCRopus – działa na systemach unixowych. Darmowe oprogramowanie wydane na licencji Apache 2.0. Przeprowadza najpierw binaryzację obrazu, dzieli na linie następnie wydobywa tekst. <br>
+**OCRopus** – działa na systemach unixowych. Darmowe oprogramowanie wydane na licencji Apache 2.0. Przeprowadza najpierw binaryzację obrazu, dzieli na linie następnie wydobywa tekst. <br>
 
-Ocrad – wydany na licencji GNU GPL. Wczytuje obrazy w formacie pixmap i przetwarza na tekst. Umożliwia podział na kolumny, bloki. <br>
+**Ocrad** – wydany na licencji GNU GPL. Wczytuje obrazy w formacie pixmap i przetwarza na tekst. Umożliwia podział na kolumny, bloki. <br>
 
-GOCR - oprogramowanie służące do rozpoznania tekstu, wydane na licencji GNU GPL v2.
+**GOCR** - oprogramowanie służące do rozpoznania tekstu, wydane na licencji GNU GPL v2.
 
 
 Wykorzystanie w językach programowych (główne zainteresowanie Java) <br>
