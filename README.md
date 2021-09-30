@@ -79,3 +79,25 @@ Zestawienie dostępnych narzędzi: https://source.opennews.org/articles/so-many-
 Lista zawierająca opis narzędzi i bibliotek: https://github.com/kba/awesome-ocr <br>
 Repozytorium zawierające testy porównawcze narzędzi: https://github.com/factful/ocr_testing <br>
 
+# Jak uruchomić aplikację:
+Argumenty programu, które należy podać:<br>
+1. wybrane narzędzie (tesseractAPI/tesseract/gocr)
+2. wybrany język (pol w przypadku polskiego języka)
+3. Ścieżkę do plików, które mają zostać poddane działanią programu.
+4. Ścieżkę do miejsca docelowego, gdzie mają zostać zapisane pliki wynikowe programu (w przypadku nie podania parametru przyjmowana jest ścieżka parametru 3)
+
+Należy mieć zainstalowane Tesseract-OCR oraz GOCR
+Instalacja Tesseract-OCR (przykład dla Ubuntu 20.04): <br>
+Deafaultowa instalacja z językiem angielskim:<br>
+sudo apt-get install tesseract-ocr
+
+dodanie języka polskiego: <br>
+sudo apt-get install tesseract-ocr-pol
+lub dodanie wszystkich dostępnych języków: <br>
+sudo apt-get install tesseract-ocr-all
+
+Instalacja GOCR:<br>
+sudo apt-get update -y
+sudo apt-get install -y gocr
+
+Preferowany format pliktów to: .png, .jpg, .tiff
