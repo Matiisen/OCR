@@ -50,12 +50,12 @@ Jako jedyny w zestawieniu Tesseract posiada biblioteki umożliwiające wykorzyst
 Tesseract-OCR dostępny jest również jako projekt w dockerze z sytemem kolejkowym: https://github.com/tleyden/open-ocr
 
 ### Wyniki testów porównawczych:
-Testy przeprowadzono na 100 plikach w formacie .png, o rozmiarach z zakresu od ~50KB do ~750KB
-Tesseract-OCR (API) uzyskał średnie czasy w okolicach 2s.
-Tesseract-OCR (jako proces) uzyskał średnie czasy na poziomie 1,2-1,3s
-GOCR (jako proces) uzyskał średnie czasy na poziomie 0,5s
+Testy przeprowadzono na 100 plikach w formacie .png, o rozmiarach z zakresu od ~50KB do ~750KB <br>
+Tesseract-OCR (API) uzyskał średnie czasy w okolicach 2s. <br>
+Tesseract-OCR (jako proces) uzyskał średnie czasy na poziomie 1,2-1,3s <br>
+GOCR (jako proces) uzyskał średnie czasy na poziomie 0,5s <br>
 
-Dokładność przeprowadzonej analizy jest większa dla Tesseract-OCR.
+Dokładność przeprowadzonej analizy jest większa dla Tesseract-OCR. (Uzyskane teksty są bliższe tym orginalnym)
 
 ### Wnioski:
 Wnioski po przeprowadzeniu analizy oraz testów porównawczych (Tesseract-ocr a GOCR): <br>
