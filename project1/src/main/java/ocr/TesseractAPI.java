@@ -19,7 +19,7 @@ public class TesseractAPI implements OcrInterface{
 
         BytePointer outText = null;
         tesseract.TessBaseAPI api = new tesseract.TessBaseAPI();
-        if (api.Init("",language) != 0){
+        if (api.Init("/home/student/IdeaProjects/project1/src/main/resources/tessdata",language) != 0){
             System.err.println("Could not initialize tesseract.");
             return false;
         }

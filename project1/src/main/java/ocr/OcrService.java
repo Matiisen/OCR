@@ -23,7 +23,6 @@ public class OcrService {
         else
             this.destinationDir = destinationDir[0];
 
-        this.resultName = this.destinationDir+"/_summary_"+ocrName+".csv";
         switch(implementation){
             case "GOCR":
             case "Gocr":
@@ -52,6 +51,7 @@ public class OcrService {
 
         File folder = new File(sourceDir);
         File[] listOfFiles = folder.listFiles();
+        this.resultName = this.destinationDir+"/_summary_"+ocrName+".csv";
 
         double timeSum = 0, timeSumValid=0;
         try {
