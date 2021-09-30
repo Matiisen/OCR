@@ -49,14 +49,22 @@ Jako jedyny w zestawieniu Tesseract posiada biblioteki umożliwiające wykorzyst
 
 Tesseract-OCR dostępny jest również jako projekt w dockerze z sytemem kolejkowym: https://github.com/tleyden/open-ocr
 
+### Wyniki testów porównawczych:
+Testy przeprowadzono na 100 plikach w formacie .png, o rozmiarach z zakresu od ~50KB do ~750KB
+Tesseract-OCR (API) uzyskał średnie czasy w okolicach 2s.
+Tesseract-OCR (jako proces) uzyskał średnie czasy na poziomie 1,2-1,3s
+GOCR (jako proces) uzyskał średnie czasy na poziomie 0,5s
+
+Dokładność przeprowadzonej analizy jest większa dla Tesseract-OCR.
+
 ### Wnioski:
 Wnioski po przeprowadzeniu analizy oraz testów porównawczych (Tesseract-ocr a GOCR): <br>
-- Tesseract pracuje dłużej
-- Uzyskane teksty przez Tesseract są dokładniejsze
-- Tesseract jako jedyne narzędzie posiada biblioteki umożliwiające wykorzystanie go w językach.
+- Tesseract - średni czas pracy jest większy niż czas pracy GOCR
+- Uzyskane wyniki przez Tesseract są dokładniejsze
+- Tesseract jako jedyne narzędzie posiada biblioteki umożliwiające wykorzystanie go w różnych językach programowania.
 - Najbardziej powszechnie używanym narzędziem jest Tesseract
 - Posiada wsparcie dla języka polskiego
-- W przedstawianych poniżej rankingach Tesseract wypada najlepiej
+- W przedstawianych poniżej rankingach Tesseract znajmuje topowe pozycje.
 
 Z powyższych wniosków wynika, że najlepszym w zadanych kryteriach dostępnym narzędziem jest Tesseract-ocr.
 
