@@ -51,9 +51,13 @@ Tesseract-OCR dostępny jest również jako projekt w dockerze z sytemem kolejko
 
 ### Wyniki testów porównawczych:
 Testy przeprowadzono na 100 plikach w formacie .png, o rozmiarach z zakresu od ~50KB do ~750KB <br>
-Tesseract-OCR (API) uzyskał średnie czasy w okolicach 2s. <br>
-Tesseract-OCR (jako proces) uzyskał średnie czasy na poziomie 1,2-1,3s <br>
-GOCR (jako proces) uzyskał średnie czasy na poziomie 0,5s <br>
+100 plikach w formacie .jpg oraz 100 plikach w formacie .tiff <br>
+
+|    Narzędzie   |czas [s] dla 100 plików .png| czas [s] dla 100 plików .jpg | czas [s] dla 100 plików .tiff   |
+| :---:   | :-: | :-: | :-:|
+|  Tesseract            | Windows         |  tak   |  na bieżąco |
+|  GOCR   | Unix/Win        |  tak   |  na bieżąco |
+
 
 Dokładność przeprowadzonej analizy jest większa dla Tesseract-OCR. (Uzyskane teksty są bliższe tym orginalnym)
 
