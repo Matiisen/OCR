@@ -13,38 +13,30 @@ public class OcrService {
     private String ocrName;
     private String resultName;
 
-    public OcrService(String implementation, String lang, String sourceDir, String... destinationDir){
+    public OcrService(String implementation, String lang, String sourceDir, String destinationDir) {
 
         this.sourceDir = sourceDir;
         this.lang = lang;
 
-        if(destinationDir.length == 0)
+        if (destinationDir == null)
             this.destinationDir = this.sourceDir;
         else
-            this.destinationDir = destinationDir[0];
+            this.destinationDir = destinationDir;
 
-        switch(implementation){
-            case "GOCR":
-            case "Gocr":
-            case "gocr":{
-                ocr = new Gocr();
-                ocrName = "GOCR";
-                break;
-            }
-            case "Tesseract":
-            case "tesseract":{
-                ocr = new Tesseract();
-                ocrName = "Tesseract";
-                break;
-            }
-            default:
-            case "TesseractAPI":
-            case "tesseractAPI": {
-                ocr = new TesseractAPI();
-                ocrName = "TesseractAPI";
-                break;
-            }
+        if ("gocr".equalsIgnoreCase(implementation)) {
+            ocr = new Gocr();
+            ocrName = "GOCR";
         }
+        else if("tesseract".equalsIgnoreCase(implementation)) {
+            ocr = new Tesseract();
+            ocrName = "Tesseract";
+        }
+        else if("tesseractAPI".equalsIgnoreCase(implementation)) {
+            ocr = new TesseractAPI();
+            ocrName = "TesseractAPI";
+        }
+        else
+            System.out.println("Unknown ocr service! Check first parametr");
     }
 
     public void run(){

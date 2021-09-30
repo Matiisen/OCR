@@ -10,7 +10,6 @@ import java.io.IOException;
 
 import static org.bytedeco.javacpp.lept.pixDestroy;
 import static org.bytedeco.javacpp.lept.pixRead;
-import static org.junit.Assert.assertEquals;
 
 public class TesseractAPI implements OcrInterface{
 
@@ -30,7 +29,7 @@ public class TesseractAPI implements OcrInterface{
 
         outText = api.GetUTF8Text();
         String string = outText.getString();
-        assertEquals(false, string.isEmpty());
+        //assertEquals(false, string.isEmpty());
         //System.out.println("OCR output:\n" + string);
         try {
             FileWriter fw = new FileWriter(destinationDirPath + "/" + sourceFile.getName() + "_TesseractAPI.txt");
