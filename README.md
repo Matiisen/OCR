@@ -33,7 +33,7 @@ Cloudowe:
 |  Microsoft Azure Vison | Windows         |  tak   |  na bieżąco |
 
 
-Opis wybranych narzędzi: <br>
+#### Opis wybranych narzędzi: <br>
 
 **Tesseract**- narzędzie służące do przeprowadzania OCR działające na różnych systemach operacyjnych. Jest darmowym oprogramowaniem wydanym na licencji Apache 2.0. Uważany za najbardziej dokładny open sourcowy program do OCR. 
 
@@ -60,13 +60,14 @@ Wnioski po przeprowadzeniu analizy oraz testów porównawczych (Tesseract-ocr a 
 
 Z powyższych wniosków wynika, że najlepszym w zadanych kryteriach dostępnym narzędziem jest Tesseract-ocr.
 
+### Rankingi
 Znalezione rankingi przedstawianych narzędzi: <br>
 Zestawienie pod względem dokładności: https://www.slant.co/topics/2579/~best-ocr-libraries <br>
 Zestawienie najlepszych narzędzi dostępnych na linuxie wraz z porównaniem przedstawianych: https://www.linuxlinks.com/ocrtools/ <br>
 Zestawienie narzędzi na linuxie: https://linuxhint.com/ocr-apps-linux/ <br>
 Zestawienie dostępnych narzędzi: https://source.opennews.org/articles/so-many-ocr-options/ <br>
 
-użyteczne linki: <br>
+### użyteczne linki: <br>
 Lista zawierająca opis narzędzi i bibliotek: https://github.com/kba/awesome-ocr <br>
 Repozytorium zawierające testy porównawcze narzędzi: https://github.com/factful/ocr_testing <br>
 
