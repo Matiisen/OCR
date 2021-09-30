@@ -49,7 +49,7 @@ Jako jedyny w zestawieniu Tesseract posiada biblioteki umożliwiające wykorzyst
 
 Tesseract-OCR dostępny jest również jako projekt w dockerze z sytemem kolejkowym: https://github.com/tleyden/open-ocr
 
-###Wnioski:
+### Wnioski:
 Wnioski po przeprowadzeniu analizy oraz testów porównawczych (Tesseract-ocr a GOCR): <br>
 - Tesseract pracuje dłużej
 - Uzyskane teksty przez Tesseract są dokładniejsze
